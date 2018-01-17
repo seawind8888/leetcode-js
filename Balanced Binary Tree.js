@@ -18,7 +18,6 @@ For this problem, a height-balanced binary tree is defined as a binary tree in w
 var isBalanced = function(root) {
     return findDepth(root) === -1 ? false : true;
 };
-
 function findDepth(root) {
     if (root === null) {
         return 0;
